@@ -913,6 +913,11 @@
                 canShow: 'new'
             },
             {
+                key: 'check-integrity',
+                category: 'global',
+                canShow: 'new|waiting|paused'
+            },
+            {
                 key: 'max-download-limit',
                 category: 'global'
             },
