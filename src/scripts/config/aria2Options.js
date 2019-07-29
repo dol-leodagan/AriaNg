@@ -913,11 +913,6 @@
                 canShow: 'new'
             },
             {
-                key: 'check-integrity',
-                category: 'global',
-                canShow: 'new|waiting|paused'
-            },
-            {
                 key: 'max-download-limit',
                 category: 'global'
             },
@@ -1016,6 +1011,11 @@
                 key: 'seed-time',
                 category: 'bittorrent',
                 canUpdate: 'new|waiting|paused'
+            },
+            {
+                key: 'bt-seed-unverified',
+                category: 'bittorrent',
+                canShow: 'new|waiting|paused'
             },
             {
                 key: 'conditional-get',
