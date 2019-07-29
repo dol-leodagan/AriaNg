@@ -1015,7 +1015,7 @@
             {
                 key: 'bt-seed-unverified',
                 category: 'bittorrent',
-                canShow: 'new|waiting|paused'
+                canShow: 'new|active|waiting|paused'
             },
             {
                 key: 'conditional-get',
